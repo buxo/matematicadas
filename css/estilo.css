@@ -1,0 +1,105 @@
+/* 
+COLORES
+Texto: #333 
+*/
+
+
+/* AXUSTES COMUNS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+
+/*Textos*/
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+
+/* Secións */
+
+.contenedor {
+    width: 100%;
+    float: left;
+    background: #dbdbdb;
+}
+
+.contido {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+/* CABECEIRA */
+
+header {
+    width: 100%;
+    float: left;
+    min-height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5fffb4;
+}
+
+header .logo {
+    width: 40%;
+}
+
+header .interruptor {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header .interruptor a {
+    margin: .1em;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+header .interruptor #cerrar {
+    display: none;
+}
+
+
+/* menú */
+
+nav {
+    display: none;
+}
