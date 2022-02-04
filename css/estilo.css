@@ -79,21 +79,21 @@ header .logo {
     width: 40%;
 }
 
-header .interruptor {
+header .interruptores {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-header .interruptor a {
+header .interruptores a {
     margin: .1em;
     font-size: 3.5em;
     font-weight: bold;
     color: #fff;
 }
 
-header .interruptor #cerrar {
+header .interruptores #cerrar {
     display: none;
 }
 
@@ -101,7 +101,7 @@ header .interruptor #cerrar {
 /* menú */
 
 nav.menu {
-    /*display: none;*/
+    display: none;
     background: #fff;
     position: fixed;
     top: 4em;
@@ -109,6 +109,14 @@ nav.menu {
     min-width: 80%;
     height: 100%;
     box-shadow: -1px 2px 4px #333;
+}
+
+nav.menuaberto {
+    display: block;
+}
+
+nav.menucerrado {
+    display: none;
 }
 
 .menu ul {
@@ -133,5 +141,5 @@ nav.menu {
 .menu ul li:hover,
 .menu ul li:focus,
 .menu ul li:active {
-    background: #999999;
+    background: #cccccc;
 }
